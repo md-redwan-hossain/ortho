@@ -1,0 +1,17 @@
+.mypy_cache
+english_words.xml
+copy.xml
+scrap.py
+test.py
+__pycache__
+download
+build
+dist
+ydm.spec
+tempCodeRunnerFile.py
+.vscode
+ortho.db
+trial.py
+bangla_words.xml
+word_db_english.json
+ortho_ui.py
