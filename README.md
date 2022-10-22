@@ -27,6 +27,6 @@ Platform specific executable files are available in the [release page.](https://
 
 - Install the dependencies first: `pip3 install -r requirements.txt`
 
-- Then run YDM by this command: `python3 ortho.py`
+- Then run Ortho Dictionary by this command: `python3 ortho.py`
 
 - The very first run may take some time because the of the extraction process of the sqlite database.
