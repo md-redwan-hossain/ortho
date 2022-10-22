@@ -15,3 +15,6 @@ trial.py
 bangla_words.xml
 word_db_english.json
 ortho_ui.py
+build_commands.txt
+Ortho_Dictionary.spec
+Ortho_Dictionary-x86_64.AppImage

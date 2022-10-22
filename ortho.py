@@ -22,6 +22,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 class Main_Ui(QMainWindow):
     UI_FILE = os.path.join(BASE_DIR, "ortho.ui")
     DB_PATH = os.path.join(BASE_DIR, "ortho.db")
+    BN_JSON_DB_PATH = os.path.join(BASE_DIR, "word_db_bangla.json")
 
     if not os.path.exists(DB_PATH):
         print("Extracting DataBase")
@@ -36,7 +37,7 @@ class Main_Ui(QMainWindow):
         self.DB_CONNECTION = sqlite3.connect(self.DB_PATH)
 
     def init_json_bn_db(self):
-        with open("word_db_bangla.json") as json_file:
+        with open(f"{self.BN_JSON_DB_PATH}") as json_file:
             self.JSON_BN_DB = json.load(json_file)
 
     def __init__(self):
