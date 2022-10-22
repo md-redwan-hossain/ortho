@@ -13,7 +13,13 @@
 
 <br>
 
-# Steps to run Ortho Dictionary:
+## Platform specific executable files:
+
+Platform specific executable files are available in the [release page.](https://github.com/redwan-hossain/ortho/releases/)
+
+<br>
+
+## Steps to run Ortho Dictionary from source code:
 
 **Ensure python (3.9+) is installed in your system then follow the following steps:**
 
@@ -24,4 +30,3 @@
 - Then run YDM by this command: `python3 ortho.py`
 
 - The very first run may take some time because the of the extraction process of the sqlite database.
-
