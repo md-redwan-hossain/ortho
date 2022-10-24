@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>595</width>
-    <height>800</height>
+    <height>650</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -25,7 +25,7 @@
   <property name="maximumSize">
    <size>
     <width>595</width>
-    <height>800</height>
+    <height>650</height>
    </size>
   </property>
   <property name="contextMenuPolicy">
@@ -99,9 +99,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>240</y>
+      <y>220</y>
       <width>571</width>
-      <height>501</height>
+      <height>391</height>
      </rect>
     </property>
     <property name="contextMenuPolicy">
@@ -131,7 +131,7 @@
        <x>0</x>
        <y>0</y>
        <width>567</width>
-       <height>497</height>
+       <height>387</height>
       </rect>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout">
