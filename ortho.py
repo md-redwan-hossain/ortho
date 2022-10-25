@@ -16,6 +16,16 @@ from PyQt6.QtWidgets import (
 )
 
 
+try:
+    from ctypes import windll
+
+    # for Windows taskbar logo
+    myappid = "Redwan_Hossain.Ortho_Dictionary.1.0.0"
+    windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+except ImportError:
+    pass
+
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
@@ -102,7 +112,7 @@ class Main_Ui(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    app.setWindowIcon(QtGui.QIcon(os.path.join(BASE_DIR, "ortho.svg")))
+    app.setWindowIcon(QtGui.QIcon(os.path.join(BASE_DIR, "ortho.ico")))
     window = Main_Ui()
     window.show()
     sys.exit(app.exec())
